@@ -47,26 +47,20 @@ npm run build
 npm run preview
 ```
 
-## GitHub Pages deployment (automatic)
-This repository includes a GitHub Actions workflow at `.github/workflows/deploy-gh-pages.yml`.
+## Deploy to GitHub Pages
+1. Create a public GitHub repo named `cyberlearn-platform`.
+2. Push this code to the default branch.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Deploy:
+   ```bash
+   npm run deploy
+   ```
+5. In GitHub repository settings, ensure **Pages** is set to the `gh-pages` branch.
 
-### Deployment behavior
-- Trigger: push to `main`
-- Build command: `npm run build`
-- Deploy target branch: **`gh-pages`**
-- Published folder: `dist`
-
-### One-time GitHub setup
-1. Push this repository to GitHub.
-2. Go to **Settings → Pages**.
-3. Set source to **Deploy from a branch**.
-4. Select branch: `gh-pages`, folder: `/ (root)`.
-5. Save.
-
-### Expected live URL
-If your repo is named `cyberlearn-platform`, your site URL is:
-
-`https://<your-github-username>.github.io/cyberlearn-platform/`
+> If your repository name differs, update `base` in `vite.config.js`.
 
 ## Project documentation
 - Architecture and extension guide: `src/docs/PROJECT_STRUCTURE.md`
