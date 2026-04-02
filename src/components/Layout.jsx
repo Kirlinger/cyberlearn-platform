@@ -25,9 +25,25 @@ export default function Layout({ children, lang, setLang, dark, setDark, search,
         <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/80 px-4 py-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/70">
           <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-3">
             <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder={ui.search} className="min-w-[220px] flex-1 rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm dark:border-slate-700 dark:bg-slate-900" />
-            <div className="flex items-center gap-2">
-              {['fr', 'ht', 'en'].map((l) => <button key={l} onClick={() => setLang(l)} className={`rounded-lg px-3 py-1 text-xs uppercase ${lang===l?'bg-brand-500 text-white':'bg-slate-200 dark:bg-slate-800'}`}>{l}</button>)}
-              <button onClick={() => setDark(!dark)} className="rounded-lg bg-slate-200 px-3 py-1 text-xs dark:bg-slate-800">{dark ? 'Light' : 'Dark'}</button>
+            <div className="flex items-center gap-2" role="radiogroup" aria-label="Language selector">
+              {['fr', 'ht', 'en'].map((l) => (
+                <button
+                  key={l}
+                  onClick={() => setLang(l)}
+                  role="radio"
+                  aria-checked={lang === l}
+                  className={`rounded-lg px-3 py-1 text-xs uppercase ${lang===l?'bg-brand-500 text-white':'bg-slate-200 dark:bg-slate-800'}`}
+                >
+                  {l}
+                </button>
+              ))}
+              <button
+                onClick={() => setDark(!dark)}
+                className="rounded-lg bg-slate-200 px-3 py-1 text-xs dark:bg-slate-800"
+                aria-pressed={dark}
+              >
+                {dark ? 'Light' : 'Dark'}
+              </button>
             </div>
           </div>
         </header>
