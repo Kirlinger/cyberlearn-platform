@@ -26,7 +26,7 @@ const lessonSrc = fs.readFileSync(lessonDataPath, 'utf-8');
 const lessonIds = [...lessonSrc.matchAll(/id:\s*'([^']+)'/g)].map((m) => m[1]);
 
 // Static routes + dynamic lesson routes
-const staticRoutes = ['/', '/roadmaps', '/labs', '/glossary', '/resources', '/career'];
+const staticRoutes = ['/', '/courses', '/roadmaps', '/labs', '/glossary', '/resources', '/career', '/login', '/signup', '/dashboard'];
 const lessonRoutes = lessonIds.map((id) => `/lesson/${id}`);
 const allRoutes = [...staticRoutes, ...lessonRoutes];
 
