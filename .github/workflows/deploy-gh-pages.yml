@@ -29,13 +29,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build and pre-render
+        run: npm run generate
         env:
           GITHUB_PAGES: 'true'
 
-      - name: Create 404 fallback for SPA routing
-        run: cp dist/index.html dist/404.html
+      - name: Remove SSR server bundle from deploy
+        run: rm -rf dist/server
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
