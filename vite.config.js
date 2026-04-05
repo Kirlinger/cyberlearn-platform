@@ -7,4 +7,9 @@ const base = process.env.GITHUB_PAGES === 'true' ? '/cyberlearn-platform/' : '/'
 export default defineConfig({
   plugins: [react()],
   base,
+  ssr: {
+    // Bundle these packages into the SSR output instead of leaving them
+    // as external imports (fixes ESM resolution issues at prerender time).
+    noExternal: ['react-syntax-highlighter'],
+  },
 });

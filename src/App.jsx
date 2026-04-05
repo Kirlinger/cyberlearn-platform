@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import { lessons } from './data/lessons';
@@ -11,7 +11,10 @@ export default function App() {
   const [lang, setLang] = useState('fr');
   const [dark, setDark] = useState(true);
   const [search, setSearch] = useState('');
-  document.documentElement.classList.toggle('dark', dark);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', dark);
+  }, [dark]);
 
   const filteredLessons = useMemo(() => {
     const q = search.toLowerCase();

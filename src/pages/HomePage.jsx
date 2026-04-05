@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import ProgressCard from '../components/ProgressCard';
 
 export default function HomePage({ lessons, ui }) {
@@ -9,6 +10,12 @@ export default function HomePage({ lessons, ui }) {
 
   return (
     <div className="space-y-6">
+      <Helmet>
+        <title>CyberLearn Platform — Dashboard</title>
+        <meta name="description" content="Browse the CyberLearn lesson catalog covering cybersecurity, Linux, networking, Python, and SQL. Track your learning progress and explore hands-on exercises." />
+        <meta property="og:title" content="CyberLearn Platform — Dashboard" />
+        <meta property="og:description" content="Browse the CyberLearn lesson catalog covering cybersecurity, Linux, networking, Python, and SQL." />
+      </Helmet>
       <section className="grid gap-4 md:grid-cols-3">
         <ProgressCard label="Learning Path Completion" value={42} />
         <ProgressCard label="Weekly Practice" value={68} />

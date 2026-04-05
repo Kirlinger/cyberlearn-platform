@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import CodeBlock from '../components/CodeBlock';
 import QuizBlock from '../components/QuizBlock';
 
@@ -9,6 +10,12 @@ export default function LessonPage({ lessons, ui }) {
 
   return (
     <div className="space-y-5">
+      <Helmet>
+        <title>{`${lesson.title} — CyberLearn Platform`}</title>
+        <meta name="description" content={`${lesson.definitionFr} — ${lesson.whyItMatters}`} />
+        <meta property="og:title" content={`${lesson.title} — CyberLearn Platform`} />
+        <meta property="og:description" content={lesson.definitionFr} />
+      </Helmet>
       <div className="card">
         <p className="text-xs uppercase tracking-wide text-slate-500">{lesson.section}</p>
         <h1 className="text-2xl font-bold">{lesson.title}</h1>
