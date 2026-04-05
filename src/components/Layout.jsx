@@ -32,7 +32,7 @@ function SidebarLink({ to, icon: Icon, label, onClick }) {
       }
       end={to === '/'}
     >
-      <Icon className="h-4.5 w-4.5 shrink-0" style={{ width: 18, height: 18 }} />
+      <Icon className="shrink-0" style={{ width: 18, height: 18 }} />
       <span>{label}</span>
     </NavLink>
   );
@@ -99,7 +99,7 @@ export default function Layout({ children, lang, setLang, dark, setDark, search,
               }`}
             >
               <span className="truncate">{s}</span>
-              <IconChevronRight className="h-3 w-3 shrink-0 opacity-0 transition-opacity group-hover:opacity-100" style={{ width: 12, height: 12 }} />
+              <IconChevronRight className="h-3 w-3 shrink-0 opacity-0 transition-opacity group-hover:opacity-100" />
             </button>
           ))}
         </div>

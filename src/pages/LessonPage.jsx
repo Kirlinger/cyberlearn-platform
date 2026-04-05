@@ -39,7 +39,7 @@ export default function LessonPage({ lessons, ui }) {
         <div className="text-center">
           <p className="text-6xl font-bold text-slate-200 dark:text-slate-800">404</p>
           <p className="mt-2 text-lg text-slate-500">{ui.lessonNotFound}</p>
-          <Link to="/" className="btn-primary mt-4 inline-flex">{ui.backToHome}</Link>
+          <Link to="/" className="btn-primary mt-4">{ui.backToHome}</Link>
         </div>
       </div>
     );
