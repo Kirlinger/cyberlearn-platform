@@ -1,27 +1,42 @@
-import { useState } from 'react';
-import { Link, Navigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
-import { useAuth } from '../context/AuthContext';
-import { IconShield, IconAlertCircle } from '../components/Icons';
+'use client';
 
-export default function SignupPage({ ui }) {
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useAuth, useLanguage } from '@/app/providers';
+import { ui as uiDict } from '@/data/translations';
+import { IconShield, IconAlertCircle } from '@/components/icons';
+
+export default function SignupPage() {
   const { signup, isAuthenticated } = useAuth();
+  const { lang } = useLanguage();
+  const router = useRouter();
+  const ui = uiDict[lang];
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  if (isAuthenticated) return <Navigate to="/dashboard" replace />;
+  useEffect(() => {
+    if (isAuthenticated) {
+      router.replace('/dashboard');
+    }
+  }, [isAuthenticated, router]);
 
-  const handleSubmit = async (e) => {
+  if (isAuthenticated) {
+    return null;
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
     setLoading(true);
     try {
       await signup(name, email, password);
-    } catch (err) {
-      setError(err.message);
+      router.replace('/dashboard');
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'Signup failed');
     } finally {
       setLoading(false);
     }
@@ -29,9 +44,6 @@ export default function SignupPage({ ui }) {
 
   return (
     <div className="flex min-h-[70vh] items-center justify-center animate-fade-in">
-      <Helmet>
-        <title>{ui.signupTitle} — CyberLearn</title>
-      </Helmet>
       <div className="w-full max-w-md">
         <div className="mb-8 text-center">
           <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-cyber-500 shadow-glow">
@@ -96,7 +108,7 @@ export default function SignupPage({ ui }) {
           </form>
           <p className="mt-4 text-center text-sm text-slate-500">
             {ui.haveAccount}{' '}
-            <Link to="/login" className="font-medium text-brand-500 hover:text-brand-600">{ui.login}</Link>
+            <Link href="/login" className="font-medium text-brand-500 hover:text-brand-600">{ui.login}</Link>
           </p>
         </div>
       </div>

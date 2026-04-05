@@ -1,11 +1,27 @@
-import { Link, Navigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
-import { useAuth } from '../context/AuthContext';
-import { lessons } from '../data/lessons';
-import { IconUsers, IconTrendingUp, IconAward, IconBook } from '../components/Icons';
-import ProgressCard from '../components/ProgressCard';
+'use client';
 
-function DashStatCard({ icon: Icon, value, label, trend, color }) {
+import { useEffect } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useAuth, useLanguage } from '@/app/providers';
+import { ui as uiDict } from '@/data/translations';
+import { lessons } from '@/data/lessons';
+import { IconUsers, IconTrendingUp, IconAward, IconBook } from '@/components/icons';
+import ProgressCard from '@/components/ui/progress-card';
+
+function DashStatCard({
+  icon: Icon,
+  value,
+  label,
+  trend,
+  color,
+}: {
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  value: string | number;
+  label: string;
+  trend?: string;
+  color: string;
+}) {
   return (
     <div className="card flex items-start justify-between">
       <div>
@@ -20,12 +36,23 @@ function DashStatCard({ icon: Icon, value, label, trend, color }) {
   );
 }
 
-export default function DashboardPage({ ui }) {
+export default function DashboardPage() {
   const { user, isAuthenticated } = useAuth();
+  const { lang } = useLanguage();
+  const router = useRouter();
+  const ui = uiDict[lang];
 
-  if (!isAuthenticated) return <Navigate to="/login" replace />;
+  useEffect(() => {
+    if (!isAuthenticated) {
+      router.replace('/login');
+    }
+  }, [isAuthenticated, router]);
 
-  const bySection = lessons.reduce((acc, l) => {
+  if (!isAuthenticated) {
+    return null;
+  }
+
+  const bySection = lessons.reduce<Record<string, number>>((acc, l) => {
     acc[l.section] = (acc[l.section] || 0) + 1;
     return acc;
   }, {});
@@ -36,10 +63,6 @@ export default function DashboardPage({ ui }) {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      <Helmet>
-        <title>{ui.dashboard} — CyberLearn</title>
-      </Helmet>
-
       {/* Welcome */}
       <div className="rounded-2xl border border-slate-200/60 bg-gradient-to-r from-brand-50 to-cyber-50/30 p-6 dark:border-white/5 dark:from-brand-950/20 dark:to-cyber-950/10">
         <h1 className="text-2xl font-extrabold">
@@ -90,7 +113,7 @@ export default function DashboardPage({ ui }) {
           {lessons.slice(0, 5).map((lesson) => (
             <Link
               key={lesson.id}
-              to={`/lesson/${lesson.id}`}
+              href={`/lesson/${lesson.id}`}
               className="flex items-center gap-3 rounded-xl p-2 transition-all duration-200 hover:bg-slate-50 dark:hover:bg-white/5"
             >
               <div className="h-2 w-2 rounded-full bg-cyber-500" />

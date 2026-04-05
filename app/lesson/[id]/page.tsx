@@ -1,11 +1,16 @@
-import { Link, useParams } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
-import CodeBlock from '../components/CodeBlock';
-import QuizBlock from '../components/QuizBlock';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import { IconArrowRight, IconChevronRight } from '../components/Icons';
+'use client';
 
-function Section({ children, className = '' }) {
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
+import { useLanguage } from '@/app/providers';
+import { useScrollAnimation } from '@/hooks/use-scroll-animation';
+import { ui as uiDict } from '@/data/translations';
+import { lessons } from '@/data/lessons';
+import CodeBlock from '@/components/ui/code-block';
+import QuizBlock from '@/components/ui/quiz-block';
+import { IconArrowRight, IconChevronRight } from '@/components/icons';
+
+function Section({ children, className = '' }: { children: React.ReactNode; className?: string }) {
   const [ref, visible] = useScrollAnimation(0.05);
   return (
     <div
@@ -17,7 +22,7 @@ function Section({ children, className = '' }) {
   );
 }
 
-function SectionCard({ title, children, className = '' }) {
+function SectionCard({ title, children, className = '' }: { title: string; children: React.ReactNode; className?: string }) {
   return (
     <div className={`card ${className}`}>
       <h2 className="mb-3 flex items-center gap-2 text-lg font-bold">
@@ -29,8 +34,11 @@ function SectionCard({ title, children, className = '' }) {
   );
 }
 
-export default function LessonPage({ lessons, ui }) {
-  const { id } = useParams();
+export default function LessonPage() {
+  const params = useParams();
+  const id = params.id as string;
+  const { lang } = useLanguage();
+  const ui = uiDict[lang];
   const lesson = lessons.find((l) => l.id === id);
 
   if (!lesson) {
@@ -39,7 +47,7 @@ export default function LessonPage({ lessons, ui }) {
         <div className="text-center">
           <p className="text-6xl font-bold text-slate-200 dark:text-slate-800">404</p>
           <p className="mt-2 text-lg text-slate-500">{ui.lessonNotFound}</p>
-          <Link to="/" className="btn-primary mt-4">{ui.backToHome}</Link>
+          <Link href="/" className="btn-primary mt-4">{ui.backToHome}</Link>
         </div>
       </div>
     );
@@ -49,17 +57,10 @@ export default function LessonPage({ lessons, ui }) {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      <Helmet>
-        <title>{`${lesson.title} — CyberLearn`}</title>
-        <meta name="description" content={`${lesson.definitionFr} — ${lesson.whyItMatters}`} />
-        <meta property="og:title" content={`${lesson.title} — CyberLearn`} />
-        <meta property="og:description" content={lesson.definitionFr} />
-      </Helmet>
-
       {/* Breadcrumb + Header */}
       <div>
         <div className="flex items-center gap-1 text-sm text-slate-400">
-          <Link to="/courses" className="hover:text-brand-500 transition-colors">{ui.courses}</Link>
+          <Link href="/courses" className="hover:text-brand-500 transition-colors">{ui.courses}</Link>
           <IconChevronRight className="h-3 w-3" />
           <span className="text-slate-600 dark:text-slate-300">{lesson.section}</span>
         </div>
@@ -167,7 +168,7 @@ export default function LessonPage({ lessons, ui }) {
           {/* Next lesson CTA */}
           {nextLessonData && (
             <Link
-              to={`/lesson/${lesson.nextLesson}`}
+              href={`/lesson/${lesson.nextLesson}`}
               className="group flex flex-col justify-center rounded-2xl border border-brand-200/50 bg-gradient-to-br from-brand-50 to-brand-100/50 p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-card-hover dark:border-brand-800/30 dark:from-brand-950/30 dark:to-brand-900/10"
             >
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-500">{ui.nextLesson}</p>
@@ -184,4 +185,3 @@ export default function LessonPage({ lessons, ui }) {
     </div>
   );
 }
-
