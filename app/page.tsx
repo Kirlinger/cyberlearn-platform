@@ -99,6 +99,9 @@ export default function HomePage() {
             <Link href="/roadmaps" className="btn-secondary">
               {ui.heroCtaSecondary}
             </Link>
+            <Link href="/histoire-pour-enfants" className="btn-ghost">
+              {ui.historyKids}
+            </Link>
           </div>
         </div>
       </section>

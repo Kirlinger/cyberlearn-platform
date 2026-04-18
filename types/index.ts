@@ -62,6 +62,7 @@ export interface UITranslations {
   glossary: string;
   resources: string;
   career: string;
+  historyKids: string;
   roadmaps: string;
   labs: string;
   relatedTopics: string;

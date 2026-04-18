@@ -26,6 +26,7 @@ const navItems = [
   { href: '/glossary', icon: IconBookOpen, key: 'glossary' as const },
   { href: '/resources', icon: IconLink, key: 'resources' as const },
   { href: '/career', icon: IconBriefcase, key: 'career' as const },
+  { href: '/histoire-pour-enfants', icon: IconBookOpen, key: 'historyKids' as const },
 ];
 
 function SidebarLink({
