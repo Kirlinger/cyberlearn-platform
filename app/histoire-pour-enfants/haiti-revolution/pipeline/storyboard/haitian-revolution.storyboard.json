@@ -1,0 +1,1280 @@
+{
+  "project": {
+    "id": "haitian-revolution-documentary",
+    "title": "Haiti 1791–1804: Revolution and Independence",
+    "targetDurationSec": 654,
+    "targetDurationLabel": "10m 54s",
+    "sceneCount": 70,
+    "fps": 24,
+    "resolution": "1920x1080",
+    "styleGuardrails": [
+      "Serious documentary tone",
+      "No anachronisms or modern objects",
+      "No fantasy visual motifs",
+      "Consistent character identity across scenes"
+    ]
+  },
+  "timelineSourceNote": "Chronology follows standard historical consensus for Haitian Revolution milestones (1791-1804).",
+  "scenes": [
+    {
+      "id": "scene-001",
+      "chronologicalOrder": 1,
+      "year": 1791,
+      "title": "Saint-Domingue Before Revolt",
+      "historicalContext": "French colony of Saint-Domingue produces immense wealth through plantation slavery; social hierarchy is rigid and violent.",
+      "narrationText": "French colony of Saint-Domingue produces immense wealth through plantation slavery; social hierarchy is rigid and violent.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Saint-Domingue Before Revolt.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Fade in from black with low drum ambience.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-001.mp4",
+        "fallbackImage": "assets/local/images/scene-001.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-001.wav"
+      }
+    },
+    {
+      "id": "scene-002",
+      "chronologicalOrder": 2,
+      "year": 1791,
+      "title": "Plantation Regime",
+      "historicalContext": "Enslaved Africans endure forced labor, surveillance, and punishment under plantation discipline.",
+      "narrationText": "Enslaved Africans endure forced labor, surveillance, and punishment under plantation discipline.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Plantation Regime.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-002.mp4",
+        "fallbackImage": "assets/local/images/scene-002.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-002.wav"
+      }
+    },
+    {
+      "id": "scene-003",
+      "chronologicalOrder": 3,
+      "year": 1791,
+      "title": "Winds of Revolution",
+      "historicalContext": "News of the French Revolution and rights debates reaches the colony, heightening tensions among whites, free people of color, and the enslaved.",
+      "narrationText": "News of the French Revolution and rights debates reaches the colony, heightening tensions among whites, free people of color, and the enslaved.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Winds of Revolution.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-003.mp4",
+        "fallbackImage": "assets/local/images/scene-003.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-003.wav"
+      }
+    },
+    {
+      "id": "scene-004",
+      "chronologicalOrder": 4,
+      "year": 1791,
+      "title": "Gathering Networks",
+      "historicalContext": "Enslaved organizers build communication networks across plantations in the northern plain.",
+      "narrationText": "Enslaved organizers build communication networks across plantations in the northern plain.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Gathering Networks.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-004.mp4",
+        "fallbackImage": "assets/local/images/scene-004.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-004.wav"
+      }
+    },
+    {
+      "id": "scene-005",
+      "chronologicalOrder": 5,
+      "year": 1791,
+      "title": "Bois Caïman Oath",
+      "historicalContext": "At Bois Caïman in August 1791, leaders gather in a secret ceremony linked in Haitian memory to coordinated resistance.",
+      "narrationText": "At Bois Caïman in August 1791, leaders gather in a secret ceremony linked in Haitian memory to coordinated resistance.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Bois Caïman Oath.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-005.mp4",
+        "fallbackImage": "assets/local/images/scene-005.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-005.wav"
+      }
+    },
+    {
+      "id": "scene-006",
+      "chronologicalOrder": 6,
+      "year": 1791,
+      "title": "Signal to Rise",
+      "historicalContext": "Plans are synchronized for a mass uprising in the North Province.",
+      "narrationText": "Plans are synchronized for a mass uprising in the North Province.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Signal to Rise.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-006.mp4",
+        "fallbackImage": "assets/local/images/scene-006.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-006.wav"
+      }
+    },
+    {
+      "id": "scene-007",
+      "chronologicalOrder": 7,
+      "year": 1791,
+      "title": "Insurrection Begins",
+      "historicalContext": "In late August 1791, plantations burn and the large-scale slave uprising begins.",
+      "narrationText": "In late August 1791, plantations burn and the large-scale slave uprising begins.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Insurrection Begins.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-007.mp4",
+        "fallbackImage": "assets/local/images/scene-007.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-007.wav"
+      }
+    },
+    {
+      "id": "scene-008",
+      "chronologicalOrder": 8,
+      "year": 1791,
+      "title": "Colonial Shock",
+      "historicalContext": "Planters and colonial militias struggle to contain coordinated attacks.",
+      "narrationText": "Planters and colonial militias struggle to contain coordinated attacks.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Colonial Shock.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-008.mp4",
+        "fallbackImage": "assets/local/images/scene-008.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-008.wav"
+      }
+    },
+    {
+      "id": "scene-009",
+      "chronologicalOrder": 9,
+      "year": 1791,
+      "title": "Armed Camps",
+      "historicalContext": "Rebel camps form with improvised command structures and captured supplies.",
+      "narrationText": "Rebel camps form with improvised command structures and captured supplies.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Armed Camps.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-009.mp4",
+        "fallbackImage": "assets/local/images/scene-009.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-009.wav"
+      }
+    },
+    {
+      "id": "scene-010",
+      "chronologicalOrder": 10,
+      "year": 1791,
+      "title": "Escalating War",
+      "historicalContext": "Conflict expands into a multi-sided civil and imperial war.",
+      "narrationText": "Conflict expands into a multi-sided civil and imperial war.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Escalating War.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1791; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-010.mp4",
+        "fallbackImage": "assets/local/images/scene-010.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-010.wav"
+      }
+    },
+    {
+      "id": "scene-011",
+      "chronologicalOrder": 11,
+      "year": 1792,
+      "title": "Competing Claims",
+      "historicalContext": "French commissioners arrive while local factions contest authority and citizenship rights.",
+      "narrationText": "French commissioners arrive while local factions contest authority and citizenship rights.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Competing Claims.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1792; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-011.mp4",
+        "fallbackImage": "assets/local/images/scene-011.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-011.wav"
+      }
+    },
+    {
+      "id": "scene-012",
+      "chronologicalOrder": 12,
+      "year": 1792,
+      "title": "Free Colored Militias",
+      "historicalContext": "Free men of color and Black fighters organize armed units amid shifting alliances.",
+      "narrationText": "Free men of color and Black fighters organize armed units amid shifting alliances.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Free Colored Militias.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1792; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-012.mp4",
+        "fallbackImage": "assets/local/images/scene-012.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-012.wav"
+      }
+    },
+    {
+      "id": "scene-013",
+      "chronologicalOrder": 13,
+      "year": 1793,
+      "title": "European Rivalry",
+      "historicalContext": "Spain and Britain exploit the crisis as war spreads across the colony.",
+      "narrationText": "Spain and Britain exploit the crisis as war spreads across the colony.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: European Rivalry.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1793; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-013.mp4",
+        "fallbackImage": "assets/local/images/scene-013.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-013.wav"
+      }
+    },
+    {
+      "id": "scene-014",
+      "chronologicalOrder": 14,
+      "year": 1793,
+      "title": "Toussaint Emerges",
+      "historicalContext": "Toussaint Louverture rises as a disciplined commander with operational skill.",
+      "narrationText": "Toussaint Louverture rises as a disciplined commander with operational skill.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Toussaint Emerges.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1793; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-014.mp4",
+        "fallbackImage": "assets/local/images/scene-014.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-014.wav"
+      }
+    },
+    {
+      "id": "scene-015",
+      "chronologicalOrder": 15,
+      "year": 1793,
+      "title": "Campaign Mobility",
+      "historicalContext": "Mounted scouts and small columns move through mountain corridors and cane fields.",
+      "narrationText": "Mounted scouts and small columns move through mountain corridors and cane fields.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Campaign Mobility.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1793; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-015.mp4",
+        "fallbackImage": "assets/local/images/scene-015.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-015.wav"
+      }
+    },
+    {
+      "id": "scene-016",
+      "chronologicalOrder": 16,
+      "year": 1793,
+      "title": "Abolition Decrees",
+      "historicalContext": "French commissioners in Saint-Domingue proclaim emancipation in parts of the colony.",
+      "narrationText": "French commissioners in Saint-Domingue proclaim emancipation in parts of the colony.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Abolition Decrees.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1793; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-016.mp4",
+        "fallbackImage": "assets/local/images/scene-016.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-016.wav"
+      }
+    },
+    {
+      "id": "scene-017",
+      "chronologicalOrder": 17,
+      "year": 1794,
+      "title": "French Abolition Confirmed",
+      "historicalContext": "In 1794, revolutionary France abolishes slavery in its colonies.",
+      "narrationText": "In 1794, revolutionary France abolishes slavery in its colonies.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: French Abolition Confirmed.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1794; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-017.mp4",
+        "fallbackImage": "assets/local/images/scene-017.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-017.wav"
+      }
+    },
+    {
+      "id": "scene-018",
+      "chronologicalOrder": 18,
+      "year": 1794,
+      "title": "Toussaint Changes Sides",
+      "historicalContext": "Toussaint aligns with Republican France after abolition, redirecting his campaign.",
+      "narrationText": "Toussaint aligns with Republican France after abolition, redirecting his campaign.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Toussaint Changes Sides.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1794; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-018.mp4",
+        "fallbackImage": "assets/local/images/scene-018.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-018.wav"
+      }
+    },
+    {
+      "id": "scene-019",
+      "chronologicalOrder": 19,
+      "year": 1794,
+      "title": "War with Spain",
+      "historicalContext": "Forces loyal to Toussaint push against Spanish positions on Hispaniola.",
+      "narrationText": "Forces loyal to Toussaint push against Spanish positions on Hispaniola.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: War with Spain.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1794; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-019.mp4",
+        "fallbackImage": "assets/local/images/scene-019.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-019.wav"
+      }
+    },
+    {
+      "id": "scene-020",
+      "chronologicalOrder": 20,
+      "year": 1794,
+      "title": "Frontline Logistics",
+      "historicalContext": "Supply lines, powder, and food determine survival as much as battle.",
+      "narrationText": "Supply lines, powder, and food determine survival as much as battle.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Frontline Logistics.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1794; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-020.mp4",
+        "fallbackImage": "assets/local/images/scene-020.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-020.wav"
+      }
+    },
+    {
+      "id": "scene-021",
+      "chronologicalOrder": 21,
+      "year": 1795,
+      "title": "War with Britain",
+      "historicalContext": "British expeditionary forces seize ports but face entrenched resistance inland.",
+      "narrationText": "British expeditionary forces seize ports but face entrenched resistance inland.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: War with Britain.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1795; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-021.mp4",
+        "fallbackImage": "assets/local/images/scene-021.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-021.wav"
+      }
+    },
+    {
+      "id": "scene-022",
+      "chronologicalOrder": 22,
+      "year": 1795,
+      "title": "Attrition and Disease",
+      "historicalContext": "Tropical disease and attrition weaken European campaigns.",
+      "narrationText": "Tropical disease and attrition weaken European campaigns.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Attrition and Disease.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1795; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-022.mp4",
+        "fallbackImage": "assets/local/images/scene-022.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-022.wav"
+      }
+    },
+    {
+      "id": "scene-023",
+      "chronologicalOrder": 23,
+      "year": 1795,
+      "title": "Treaty of Basel Context",
+      "historicalContext": "Spain cedes Santo Domingo to France by treaty, altering the strategic map.",
+      "narrationText": "Spain cedes Santo Domingo to France by treaty, altering the strategic map.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Treaty of Basel Context.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1795; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-023.mp4",
+        "fallbackImage": "assets/local/images/scene-023.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-023.wav"
+      }
+    },
+    {
+      "id": "scene-024",
+      "chronologicalOrder": 24,
+      "year": 1796,
+      "title": "Black and Mixed Leadership",
+      "historicalContext": "Black and mixed-race officers expand command responsibility in Republican ranks.",
+      "narrationText": "Black and mixed-race officers expand command responsibility in Republican ranks.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Black and Mixed Leadership.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1796; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-024.mp4",
+        "fallbackImage": "assets/local/images/scene-024.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-024.wav"
+      }
+    },
+    {
+      "id": "scene-025",
+      "chronologicalOrder": 25,
+      "year": 1796,
+      "title": "Toussaint Consolidates",
+      "historicalContext": "Toussaint centralizes authority and enforces discipline in his army.",
+      "narrationText": "Toussaint centralizes authority and enforces discipline in his army.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Toussaint Consolidates.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1796; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-025.mp4",
+        "fallbackImage": "assets/local/images/scene-025.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-025.wav"
+      }
+    },
+    {
+      "id": "scene-026",
+      "chronologicalOrder": 26,
+      "year": 1797,
+      "title": "Marches Through the Plain",
+      "historicalContext": "Columns maneuver through sugar districts to isolate enemy garrisons.",
+      "narrationText": "Columns maneuver through sugar districts to isolate enemy garrisons.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Marches Through the Plain.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1797; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-026.mp4",
+        "fallbackImage": "assets/local/images/scene-026.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-026.wav"
+      }
+    },
+    {
+      "id": "scene-027",
+      "chronologicalOrder": 27,
+      "year": 1798,
+      "title": "British Withdrawal",
+      "historicalContext": "Britain begins withdrawing after years of costly fighting.",
+      "narrationText": "Britain begins withdrawing after years of costly fighting.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: British Withdrawal.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1798; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-027.mp4",
+        "fallbackImage": "assets/local/images/scene-027.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-027.wav"
+      }
+    },
+    {
+      "id": "scene-028",
+      "chronologicalOrder": 28,
+      "year": 1798,
+      "title": "Control Expands",
+      "historicalContext": "Toussaint's administration extends control over most of the colony.",
+      "narrationText": "Toussaint's administration extends control over most of the colony.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Control Expands.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1798; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-028.mp4",
+        "fallbackImage": "assets/local/images/scene-028.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-028.wav"
+      }
+    },
+    {
+      "id": "scene-029",
+      "chronologicalOrder": 29,
+      "year": 1801,
+      "title": "Constitutional Ambition",
+      "historicalContext": "Louverture issues the 1801 Constitution, asserting autonomy while naming himself governor for life.",
+      "narrationText": "Louverture issues the 1801 Constitution, asserting autonomy while naming himself governor for life.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Constitutional Ambition.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1801; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-029.mp4",
+        "fallbackImage": "assets/local/images/scene-029.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-029.wav"
+      }
+    },
+    {
+      "id": "scene-030",
+      "chronologicalOrder": 30,
+      "year": 1801,
+      "title": "Move into Santo Domingo",
+      "historicalContext": "Toussaint occupies Santo Domingo and abolishes slavery there.",
+      "narrationText": "Toussaint occupies Santo Domingo and abolishes slavery there.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Move into Santo Domingo.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1801; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-030.mp4",
+        "fallbackImage": "assets/local/images/scene-030.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-030.wav"
+      }
+    },
+    {
+      "id": "scene-031",
+      "chronologicalOrder": 31,
+      "year": 1801,
+      "title": "Napoleon Responds",
+      "historicalContext": "Napoleon Bonaparte dispatches a major expedition under General Leclerc to restore French authority.",
+      "narrationText": "Napoleon Bonaparte dispatches a major expedition under General Leclerc to restore French authority.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Napoleon Responds.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1801; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-031.mp4",
+        "fallbackImage": "assets/local/images/scene-031.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-031.wav"
+      }
+    },
+    {
+      "id": "scene-032",
+      "chronologicalOrder": 32,
+      "year": 1802,
+      "title": "French Landing",
+      "historicalContext": "French fleets and troops land in early 1802 at key coastal points.",
+      "narrationText": "French fleets and troops land in early 1802 at key coastal points.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: French Landing.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-032.mp4",
+        "fallbackImage": "assets/local/images/scene-032.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-032.wav"
+      }
+    },
+    {
+      "id": "scene-033",
+      "chronologicalOrder": 33,
+      "year": 1802,
+      "title": "Henri Christophe's Defense",
+      "historicalContext": "Henri Christophe coordinates defensive withdrawals and scorched-earth tactics in northern towns.",
+      "narrationText": "Henri Christophe coordinates defensive withdrawals and scorched-earth tactics in northern towns.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Henri Christophe's Defense.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-033.mp4",
+        "fallbackImage": "assets/local/images/scene-033.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-033.wav"
+      }
+    },
+    {
+      "id": "scene-034",
+      "chronologicalOrder": 34,
+      "year": 1802,
+      "title": "Cap-Haïtien in Flames",
+      "historicalContext": "Retreating Haitian forces burn strategic sites rather than surrender intact ports.",
+      "narrationText": "Retreating Haitian forces burn strategic sites rather than surrender intact ports.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Cap-Haïtien in Flames.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-034.mp4",
+        "fallbackImage": "assets/local/images/scene-034.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-034.wav"
+      }
+    },
+    {
+      "id": "scene-035",
+      "chronologicalOrder": 35,
+      "year": 1802,
+      "title": "Mountain Resistance",
+      "historicalContext": "Haitian commanders shift to terrain advantage, ambush, and fragmented fronts.",
+      "narrationText": "Haitian commanders shift to terrain advantage, ambush, and fragmented fronts.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Mountain Resistance.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-035.mp4",
+        "fallbackImage": "assets/local/images/scene-035.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-035.wav"
+      }
+    },
+    {
+      "id": "scene-036",
+      "chronologicalOrder": 36,
+      "year": 1802,
+      "title": "Crête-à-Pierrot Campaign",
+      "historicalContext": "Heavy fighting at Crête-à-Pierrot demonstrates tactical resilience against French assaults.",
+      "narrationText": "Heavy fighting at Crête-à-Pierrot demonstrates tactical resilience against French assaults.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Crête-à-Pierrot Campaign.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-036.mp4",
+        "fallbackImage": "assets/local/images/scene-036.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-036.wav"
+      }
+    },
+    {
+      "id": "scene-037",
+      "chronologicalOrder": 37,
+      "year": 1802,
+      "title": "Negotiations and Pressure",
+      "historicalContext": "Leclerc combines military pressure with negotiated promises to split commanders.",
+      "narrationText": "Leclerc combines military pressure with negotiated promises to split commanders.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Negotiations and Pressure.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-037.mp4",
+        "fallbackImage": "assets/local/images/scene-037.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-037.wav"
+      }
+    },
+    {
+      "id": "scene-038",
+      "chronologicalOrder": 38,
+      "year": 1802,
+      "title": "Toussaint's Surrender",
+      "historicalContext": "Toussaint agrees to retire after assurances of safety.",
+      "narrationText": "Toussaint agrees to retire after assurances of safety.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Toussaint's Surrender.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-038.mp4",
+        "fallbackImage": "assets/local/images/scene-038.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-038.wav"
+      }
+    },
+    {
+      "id": "scene-039",
+      "chronologicalOrder": 39,
+      "year": 1802,
+      "title": "Capture by Deception",
+      "historicalContext": "In June 1802, Toussaint Louverture is seized and deported to France.",
+      "narrationText": "In June 1802, Toussaint Louverture is seized and deported to France.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Capture by Deception.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-039.mp4",
+        "fallbackImage": "assets/local/images/scene-039.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-039.wav"
+      }
+    },
+    {
+      "id": "scene-040",
+      "chronologicalOrder": 40,
+      "year": 1802,
+      "title": "Fort de Joux",
+      "historicalContext": "Toussaint is imprisoned in Fort de Joux in the Jura mountains.",
+      "narrationText": "Toussaint is imprisoned in Fort de Joux in the Jura mountains.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Fort de Joux.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-040.mp4",
+        "fallbackImage": "assets/local/images/scene-040.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-040.wav"
+      }
+    },
+    {
+      "id": "scene-041",
+      "chronologicalOrder": 41,
+      "year": 1802,
+      "title": "Threat of Re-enslavement",
+      "historicalContext": "News and policy signals indicating restoration of slavery reignite resistance.",
+      "narrationText": "News and policy signals indicating restoration of slavery reignite resistance.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Threat of Re-enslavement.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-041.mp4",
+        "fallbackImage": "assets/local/images/scene-041.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-041.wav"
+      }
+    },
+    {
+      "id": "scene-042",
+      "chronologicalOrder": 42,
+      "year": 1802,
+      "title": "Dessalines Reenters War",
+      "historicalContext": "Jean-Jacques Dessalines returns to open war against French expeditionary forces.",
+      "narrationText": "Jean-Jacques Dessalines returns to open war against French expeditionary forces.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Dessalines Reenters War.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-042.mp4",
+        "fallbackImage": "assets/local/images/scene-042.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-042.wav"
+      }
+    },
+    {
+      "id": "scene-043",
+      "chronologicalOrder": 43,
+      "year": 1802,
+      "title": "Christophe Rejoins",
+      "historicalContext": "Henri Christophe aligns in the renewed anti-French campaign.",
+      "narrationText": "Henri Christophe aligns in the renewed anti-French campaign.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Christophe Rejoins.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-043.mp4",
+        "fallbackImage": "assets/local/images/scene-043.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-043.wav"
+      }
+    },
+    {
+      "id": "scene-044",
+      "chronologicalOrder": 44,
+      "year": 1802,
+      "title": "War of Survival",
+      "historicalContext": "The struggle becomes existential: independence or re-enslavement.",
+      "narrationText": "The struggle becomes existential: independence or re-enslavement.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: War of Survival.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-044.mp4",
+        "fallbackImage": "assets/local/images/scene-044.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-044.wav"
+      }
+    },
+    {
+      "id": "scene-045",
+      "chronologicalOrder": 45,
+      "year": 1802,
+      "title": "Leclerc Dies",
+      "historicalContext": "General Leclerc dies as disease devastates French ranks; Rochambeau assumes command.",
+      "narrationText": "General Leclerc dies as disease devastates French ranks; Rochambeau assumes command.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Leclerc Dies.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-045.mp4",
+        "fallbackImage": "assets/local/images/scene-045.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-045.wav"
+      }
+    },
+    {
+      "id": "scene-046",
+      "chronologicalOrder": 46,
+      "year": 1802,
+      "title": "Rochambeau's Brutality",
+      "historicalContext": "French repression intensifies under Rochambeau, hardening Haitian resolve.",
+      "narrationText": "French repression intensifies under Rochambeau, hardening Haitian resolve.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Rochambeau's Brutality.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1802; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-046.mp4",
+        "fallbackImage": "assets/local/images/scene-046.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-046.wav"
+      }
+    },
+    {
+      "id": "scene-047",
+      "chronologicalOrder": 47,
+      "year": 1803,
+      "title": "Toussaint's Death",
+      "historicalContext": "Toussaint Louverture dies in captivity in April 1803.",
+      "narrationText": "Toussaint Louverture dies in captivity in April 1803.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Toussaint's Death.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-047.mp4",
+        "fallbackImage": "assets/local/images/scene-047.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-047.wav"
+      }
+    },
+    {
+      "id": "scene-048",
+      "chronologicalOrder": 48,
+      "year": 1803,
+      "title": "Indigenous Army Forms",
+      "historicalContext": "Dessalines unifies forces under the Armée indigène for decisive operations.",
+      "narrationText": "Dessalines unifies forces under the Armée indigène for decisive operations.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Indigenous Army Forms.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-048.mp4",
+        "fallbackImage": "assets/local/images/scene-048.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-048.wav"
+      }
+    },
+    {
+      "id": "scene-049",
+      "chronologicalOrder": 49,
+      "year": 1803,
+      "title": "Campaign of 1803",
+      "historicalContext": "Haitian forces target forts and supply routes, squeezing French coastal holdouts.",
+      "narrationText": "Haitian forces target forts and supply routes, squeezing French coastal holdouts.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Campaign of 1803.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-049.mp4",
+        "fallbackImage": "assets/local/images/scene-049.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-049.wav"
+      }
+    },
+    {
+      "id": "scene-050",
+      "chronologicalOrder": 50,
+      "year": 1803,
+      "title": "Alliance Building",
+      "historicalContext": "Former rivals coordinate under common command for final victory.",
+      "narrationText": "Former rivals coordinate under common command for final victory.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Alliance Building.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-050.mp4",
+        "fallbackImage": "assets/local/images/scene-050.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-050.wav"
+      }
+    },
+    {
+      "id": "scene-051",
+      "chronologicalOrder": 51,
+      "year": 1803,
+      "title": "Northern Offensive",
+      "historicalContext": "Assaults intensify around Cap-Français and surrounding strongpoints.",
+      "narrationText": "Assaults intensify around Cap-Français and surrounding strongpoints.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Northern Offensive.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-051.mp4",
+        "fallbackImage": "assets/local/images/scene-051.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-051.wav"
+      }
+    },
+    {
+      "id": "scene-052",
+      "chronologicalOrder": 52,
+      "year": 1803,
+      "title": "Discipline and Drill",
+      "historicalContext": "Columns practice coordinated movement, volleys, and bayonet charges.",
+      "narrationText": "Columns practice coordinated movement, volleys, and bayonet charges.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Discipline and Drill.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-052.mp4",
+        "fallbackImage": "assets/local/images/scene-052.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-052.wav"
+      }
+    },
+    {
+      "id": "scene-053",
+      "chronologicalOrder": 53,
+      "year": 1803,
+      "title": "Field Command",
+      "historicalContext": "Dessalines directs operations while sub-commanders execute sector assaults.",
+      "narrationText": "Dessalines directs operations while sub-commanders execute sector assaults.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Field Command.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-053.mp4",
+        "fallbackImage": "assets/local/images/scene-053.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-053.wav"
+      }
+    },
+    {
+      "id": "scene-054",
+      "chronologicalOrder": 54,
+      "year": 1803,
+      "title": "Henri Christophe in Action",
+      "historicalContext": "Christophe leads organized troops in pressure operations against French positions.",
+      "narrationText": "Christophe leads organized troops in pressure operations against French positions.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Henri Christophe in Action.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-054.mp4",
+        "fallbackImage": "assets/local/images/scene-054.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-054.wav"
+      }
+    },
+    {
+      "id": "scene-055",
+      "chronologicalOrder": 55,
+      "year": 1803,
+      "title": "Approach to Vertières",
+      "historicalContext": "Both armies prepare around Vertières, a key defensive line near Cap-Français.",
+      "narrationText": "Both armies prepare around Vertières, a key defensive line near Cap-Français.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Approach to Vertières.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-055.mp4",
+        "fallbackImage": "assets/local/images/scene-055.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-055.wav"
+      }
+    },
+    {
+      "id": "scene-056",
+      "chronologicalOrder": 56,
+      "year": 1803,
+      "title": "Battle of Vertières Opens",
+      "historicalContext": "On 18 November 1803, Haitian forces attack French fortifications at Vertières.",
+      "narrationText": "On 18 November 1803, Haitian forces attack French fortifications at Vertières.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Battle of Vertières Opens.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-056.mp4",
+        "fallbackImage": "assets/local/images/scene-056.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-056.wav"
+      }
+    },
+    {
+      "id": "scene-057",
+      "chronologicalOrder": 57,
+      "year": 1803,
+      "title": "Capois at the Front",
+      "historicalContext": "Officers and infantry sustain repeated assaults despite intense artillery fire.",
+      "narrationText": "Officers and infantry sustain repeated assaults despite intense artillery fire.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Capois at the Front.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-057.mp4",
+        "fallbackImage": "assets/local/images/scene-057.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-057.wav"
+      }
+    },
+    {
+      "id": "scene-058",
+      "chronologicalOrder": 58,
+      "year": 1803,
+      "title": "French Line Falters",
+      "historicalContext": "Coordinated Haitian pressure breaks French defensive capacity.",
+      "narrationText": "Coordinated Haitian pressure breaks French defensive capacity.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: French Line Falters.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-058.mp4",
+        "fallbackImage": "assets/local/images/scene-058.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-058.wav"
+      }
+    },
+    {
+      "id": "scene-059",
+      "chronologicalOrder": 59,
+      "year": 1803,
+      "title": "Victory at Vertières",
+      "historicalContext": "The Battle of Vertières ends in Haitian victory, decisive for independence.",
+      "narrationText": "The Battle of Vertières ends in Haitian victory, decisive for independence.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Victory at Vertières.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-059.mp4",
+        "fallbackImage": "assets/local/images/scene-059.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-059.wav"
+      }
+    },
+    {
+      "id": "scene-060",
+      "chronologicalOrder": 60,
+      "year": 1803,
+      "title": "French Evacuation",
+      "historicalContext": "Rochambeau agrees to evacuate remaining French forces from Cap-Français.",
+      "narrationText": "Rochambeau agrees to evacuate remaining French forces from Cap-Français.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: French Evacuation.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-060.mp4",
+        "fallbackImage": "assets/local/images/scene-060.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-060.wav"
+      }
+    },
+    {
+      "id": "scene-061",
+      "chronologicalOrder": 61,
+      "year": 1803,
+      "title": "From War to Statehood",
+      "historicalContext": "Commanders transition from wartime coalition to founding leadership.",
+      "narrationText": "Commanders transition from wartime coalition to founding leadership.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: From War to Statehood.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1803; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-061.mp4",
+        "fallbackImage": "assets/local/images/scene-061.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-061.wav"
+      }
+    },
+    {
+      "id": "scene-062",
+      "chronologicalOrder": 62,
+      "year": 1804,
+      "title": "Gonaïves Assembly",
+      "historicalContext": "Leaders gather in Gonaïves to formalize sovereignty.",
+      "narrationText": "Leaders gather in Gonaïves to formalize sovereignty.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Gonaïves Assembly.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-062.mp4",
+        "fallbackImage": "assets/local/images/scene-062.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-062.wav"
+      }
+    },
+    {
+      "id": "scene-063",
+      "chronologicalOrder": 63,
+      "year": 1804,
+      "title": "Independence Declared",
+      "historicalContext": "On 1 January 1804, Dessalines proclaims the independence of Haiti.",
+      "narrationText": "On 1 January 1804, Dessalines proclaims the independence of Haiti.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Independence Declared.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-063.mp4",
+        "fallbackImage": "assets/local/images/scene-063.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-063.wav"
+      }
+    },
+    {
+      "id": "scene-064",
+      "chronologicalOrder": 64,
+      "year": 1804,
+      "title": "Name Restored",
+      "historicalContext": "The new state adopts the name Haiti, drawn from the island's Indigenous Taíno/Arawak heritage.",
+      "narrationText": "The new state adopts the name Haiti, drawn from the island's Indigenous Taíno/Arawak heritage.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Name Restored.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-064.mp4",
+        "fallbackImage": "assets/local/images/scene-064.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-064.wav"
+      }
+    },
+    {
+      "id": "scene-065",
+      "chronologicalOrder": 65,
+      "year": 1804,
+      "title": "Army Oath",
+      "historicalContext": "Commanders swear to defend freedom and prevent return to colonial slavery.",
+      "narrationText": "Commanders swear to defend freedom and prevent return to colonial slavery.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Army Oath.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-065.mp4",
+        "fallbackImage": "assets/local/images/scene-065.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-065.wav"
+      }
+    },
+    {
+      "id": "scene-066",
+      "chronologicalOrder": 66,
+      "year": 1804,
+      "title": "Continental Impact",
+      "historicalContext": "Haiti emerges as the first independent Black republic and a transformative event in Atlantic history.",
+      "narrationText": "Haiti emerges as the first independent Black republic and a transformative event in Atlantic history.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Continental Impact.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-066.mp4",
+        "fallbackImage": "assets/local/images/scene-066.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-066.wav"
+      }
+    },
+    {
+      "id": "scene-067",
+      "chronologicalOrder": 67,
+      "year": 1804,
+      "title": "Memory of Sacrifice",
+      "historicalContext": "The revolution's human cost is acknowledged: towns destroyed, families torn, thousands dead.",
+      "narrationText": "The revolution's human cost is acknowledged: towns destroyed, families torn, thousands dead.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Memory of Sacrifice.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-067.mp4",
+        "fallbackImage": "assets/local/images/scene-067.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-067.wav"
+      }
+    },
+    {
+      "id": "scene-068",
+      "chronologicalOrder": 68,
+      "year": 1804,
+      "title": "Legacy of Leaders",
+      "historicalContext": "Toussaint Louverture, Dessalines, and Henri Christophe remain central figures of strategy and state formation.",
+      "narrationText": "Toussaint Louverture, Dessalines, and Henri Christophe remain central figures of strategy and state formation.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Legacy of Leaders.",
+      "characterPrompt": "Primary continuity character focus: Jean-Jacques Dessalines: imposing Black Haitian general, stern expression, weathered military coat, commanding voice and posture.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 10,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-068.mp4",
+        "fallbackImage": "assets/local/images/scene-068.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-068.wav"
+      }
+    },
+    {
+      "id": "scene-069",
+      "chronologicalOrder": 69,
+      "year": 1804,
+      "title": "Closing Reflection",
+      "historicalContext": "The Haitian Revolution demonstrates that enslaved people could defeat imperial armies and found a sovereign nation.",
+      "narrationText": "The Haitian Revolution demonstrates that enslaved people could defeat imperial armies and found a sovereign nation.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: Closing Reflection.",
+      "characterPrompt": "Primary continuity character focus: Henri Christophe: structured and formal military presence, upright posture, dark period uniform with officer sash, deliberate movements.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Cross-dissolve with subtle battlefield ambience carryover.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-069.mp4",
+        "fallbackImage": "assets/local/images/scene-069.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-069.wav"
+      }
+    },
+    {
+      "id": "scene-070",
+      "chronologicalOrder": 70,
+      "year": 1804,
+      "title": "End Credits / Sources",
+      "historicalContext": "Final credits list historical sources, archival references, and production acknowledgements.",
+      "narrationText": "Final credits list historical sources, archival references, and production acknowledgements.",
+      "visualPrompt": "Serious cinematic historical reconstruction, realistic 18th–19th century Caribbean setting, naturalistic lighting, smoke, mud, period-correct uniforms, no fantasy elements, no modern objects. Wide-to-medium shot. Event: End Credits / Sources.",
+      "characterPrompt": "Primary continuity character focus: Toussaint Louverture: middle-aged Black Haitian commander, disciplined bearing, blue-and-red officer coat inspired by period uniforms, bicorne hat, calm strategic expression.",
+      "environmentPrompt": "Saint-Domingue/Haiti period environment, accurate terrain and architecture for year 1804; smoke, humidity, dirt roads, colonial forts or plantations as appropriate.",
+      "transitionInstructions": "Slow fade to black and hold 2 seconds.",
+      "estimatedDurationSec": 9,
+      "assetPlaceholders": {
+        "generatedClip": "assets/generated/scenes/scene-070.mp4",
+        "fallbackImage": "assets/local/images/scene-070.jpg",
+        "narrationAudio": "assets/generated/voiceover/scene-070.wav"
+      }
+    }
+  ]
+}

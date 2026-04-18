@@ -1,0 +1,15 @@
+{
+  "name": "haitian-revolution-video-pipeline",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Production pipeline for a 10-12 minute historical Haitian Revolution documentary.",
+  "scripts": {
+    "storyboard:build": "node scripts/buildStoryboard.js",
+    "storyboard:validate": "node scripts/validateStoryboard.js",
+    "packets:export": "node scripts/exportScenePackets.js",
+    "captions:build": "node scripts/generateCaptions.js",
+    "narration:build": "node scripts/buildNarrationTrack.js",
+    "video:assemble": "node scripts/assembleFinalVideo.js",
+    "pipeline:all": "npm run storyboard:build && npm run storyboard:validate && npm run packets:export && npm run captions:build"
+  }
+}
