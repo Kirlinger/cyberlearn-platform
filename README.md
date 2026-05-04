@@ -1,66 +1,72 @@
-# CyberLearn Platform
+# Luxe Parfum - Production-Ready Perfume E-commerce
 
-A production-ready educational web platform focused on cybersecurity and foundational tech learning.
+Full-stack perfume store with React + Vite frontend and Node/Express/MongoDB backend.
 
-## Stack
-- React + Vite
-- Tailwind CSS
-- React Router
-- React Syntax Highlighter
+## Features
+- Luxury responsive UI (black/gold/white)
+- Product listing and detail pages
+- JWT authentication (register/login/logout)
+- bcrypt password hashing
+- Profile page, cart, checkout
+- WhatsApp order button with prefilled cart details
+- Admin dashboard: create/update/delete products + view orders
+- Input validation, sanitize middleware, helmet, rate limiting, error handling
 
-## Core features
-- Premium responsive dashboard layout with sidebar + top navigation
-- Dark mode toggle
-- Trilingual UI switcher: **FR / HT / EN**
-- Search across lesson catalog
-- Reusable lesson architecture with:
-  - Definition, why it matters, core concepts, deep explanation
-  - Step-by-step flow
-  - Code/command snippets in English
-  - Common mistakes
-  - Practical and challenge exercises
-  - Mini quiz, summary, related topics, recommended next lesson
-- Progress widgets
-- Roadmaps, Labs, Glossary, Resources, Career pages
+## Project Structure
+- `frontend/` React + Vite + Tailwind client
+- `backend/` Express API + MongoDB + JWT
 
-## Included initial real content
-- Cybersecurity: 5 lessons
-- Linux: 3 lessons
-- Networking: 3 lessons
-- Python: 3 lessons
-- SQL: 3 lessons
-- Roadmaps: 3 pages
-- Labs: 3 pages
-- Glossary page
-- Resources page
-- Career page
-
-## Local development
+## Backend Setup
 ```bash
+cd backend
+cp .env.example .env
+npm install
+npm run seed
+npm run dev
+```
+
+## Frontend Setup
+```bash
+cd frontend
+cp .env.example .env
 npm install
 npm run dev
 ```
 
-## Build for production
-```bash
-npm run build
-npm run preview
-```
+## Environment Variables
+### Backend (`backend/.env`)
+- `PORT=5000`
+- `MONGO_URI=...`
+- `JWT_SECRET=strong-random-secret`
+- `CLIENT_URL=http://localhost:5173`
 
-## Deploy to GitHub Pages
-1. Create a public GitHub repo named `cyberlearn-platform`.
-2. Push this code to the default branch.
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Deploy:
-   ```bash
-   npm run deploy
-   ```
-5. In GitHub repository settings, ensure **Pages** is set to the `gh-pages` branch.
+### Frontend (`frontend/.env`)
+- `VITE_API_URL=http://localhost:5000/api`
 
-> If your repository name differs, update `base` in `vite.config.js`.
+## Security Notes
+- Passwords hashed with bcrypt (12 salt rounds)
+- JWT signed with secret and 7-day expiration
+- Protected routes (`protect`, `adminOnly`)
+- Rate limiting on `/api/auth`
+- Request sanitization: Mongo sanitize + XSS clean + HPP + Helmet
+- Strong password policy and email validation
 
-## Project documentation
-- Architecture and extension guide: `src/docs/PROJECT_STRUCTURE.md`
+## Deployment
+### Backend
+- Deploy to Render/Railway/Fly.io
+- Set env vars from `.env.example`
+- Start command: `npm start`
+
+### Frontend
+- Deploy to Vercel/Netlify
+- Set `VITE_API_URL` to backend URL
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+## Default Flow
+1. Register user
+2. Browse products
+3. Add to cart
+4. Checkout (logged in)
+5. Place WhatsApp order or API order
+6. Admin logs in to manage catalog and orders
